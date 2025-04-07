@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/index.css">
+    <title>Tienda Virtual</title>
+</head>
+<body>
+    <header>
+        <div class="encabezado">
+            <a href="index.html"><h1>Logo</h1></a>
+            <input type="text" name="buscar" id="buscar" placeholder="Buscar Productos" >
+            <div class="redes">
+                <a href="#"><img src="./img/facebook.png" alt="Facebook" height="40px"></a>
+                <a href="#"><img src="./img/instagram.png" alt="Instagram" height="40px"></a>
+                <a href="#"><img src="./img/x.png" alt="Twitter" height="40px"></a>
+            </div>
+        </div>
+    </header>
+    <div  class="cuerpo">
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <main>
+                <div class="carrucel">
+                    <img src="./img/banner.jpg" alt="banner" width="100%"">
+                </div>
+                <div class="productos">
+                    <div class="celulares">
+                        <a href=""><img src="./img/samsumg.webp" alt="" width="400px"></a>
+                    </div>
+                    <div class="computadoras">
+                        <a href=""><img src="./img/pc.jpg" alt="" width="400px"></a>
+                    </div>
+                    <div class="laptops">
+                        <a href=""><img src="./img/laptop.jpg" alt="" width="400px"></a>
+                    </div>
+                </div>
+                <div class="marcas">
+                    <img src="./img/msi.png" alt="" width="200px">
+                    <img src="./img/ROG.png" alt="" width="200px">
+                    <img src="./img/Lenovo.png" alt="" width="200px">
+                    <img src="./img/logo-lg-100-44.svg" alt="" width="200px">   
+                    <img src="./img/kingston.svg" alt="" width="200px">
+                </div>
+                <div class="adicionales">
+                    <div class="promociones">
+                        <div class="descuento">
+                            <p class="descripoferta">OFERTAS ESPECIALES</p>
+                            <div class="oferta">
+                                <a href=""><img src="./img/intel.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="publicidad">
+                            <a href=""><img src="./img/NVIDIA.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="deslisante">
+                        <img src="./img/banner2.png" alt="" width="100%">
+                        <a href=""><h2 style="color: black;">Monitores <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 15 15"><path fill="currentColor" d="M8.293 2.293a1 1 0 0 1 1.414 0l4.5 4.5a1 1 0 0 1 0 1.414l-4.5 4.5a1 1 0 0 1-1.414-1.414L11 8.5H1.5a1 1 0 0 1 0-2H11L8.293 3.707a1 1 0 0 1 0-1.414" stroke-width="0.5" stroke="#fff"/></svg></h2></a>
+                        <div class="slider">
+                            <div class="slides">
+                                <div class="slide"><a href=""><img class="produc" src="./img/monito-asus-tuf-gaming-vg27aq3a-27-fas.jpg" alt="Producto 1" width="200px"></a></div>
+                                <div class="slide"><a href=""><img class="produc" src="./img/monitor-gaming-asus-rog-switf-pg27aqn-2.jpg" alt="Producto 2" width="200px"></a></div>
+                                <div class="slide"><a href=""><img class="produc" src="./img/monitor-asus-rog-strix-xg27aqmr-27-fast.jpg" alt="Producto 3" width="200px"></a></div>
+                                <div class="slide"><a href=""><img class="produc" src="./img/monitor-asus-rog-swift-oled-pg27aqdm-27.jpg" alt="Producto 4" width="200px"></a></div>
+                                <div class="slide"><a href=""><img class="produc" src="./img/monitor-gaming-lg-27gr93u-b-27-ultrage.jpg" alt="Producto 5" width="200px"></a></div>
+                                <div class="slide"><a href=""><img class="produc" src="./img/monitor-asus-tuf-gaming-vg249q3a-23-8.jpg" alt="Producto 6" width="200px"></a></div>
+                                <div class="slide"><a href=""><img class="produc" src="./img/monitor-gaming-asus-rog-swift-pg27uqr-2.jpg" alt="Producto 7" width="200px"></a></div>
+                                <div class="slide"><a href=""><img class="produc" src="./img/monitor-gaming-lg-27gr83q-b-27-ultrage.jpg" alt="Producto 8" width="200px"></a></div>
+                            </div>
+                            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <div class="contacto">
+                    
+                </div>
+            </footer>
+        </div>
+    </div>  
+</body>
+</html>
+<script src="./js/index.js"></script>

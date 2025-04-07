@@ -1,0 +1,152 @@
+@import url('https://fonts.cdnfonts.com/css/fhwaseriesc2020');  
+@import url('https://fonts.cdnfonts.com/css/db-eurothai-x-bold');                          
+body{
+    background: rgb(219, 219, 219);
+    margin: 0px;
+}
+.cuerpo{
+    margin : 250px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background: white;
+}
+h2{
+    font-family: 'DB EuroThai X Bold', sans-serif;                                              
+    padding-left: 60px;
+    font-size: 30px;
+}
+li{
+    list-style: none;
+    display: inline;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+nav{
+    background: rgb(17, 21, 29);
+    padding: 10px;
+}
+.encabezado{
+    align-items: center;    
+    display: flex;
+    color: white;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+input{
+    margin: 25px;
+}
+.carrucel{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.productos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 2px solid black;
+}
+.marcas{
+    background: royalblue;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.adicionales{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.promociones{
+    display: flex;
+    width: 30%;
+    background: seagreen;
+    flex-direction: column;
+    align-items: center;
+}
+.deslisante{
+    width: 70%;
+    background:wheat;
+}
+.descuento{
+    border: 2px solid red;
+    background: white;
+    
+}
+.menu {
+    position: sticky; /* Hace que el menú se quede pegado al hacer scroll */
+    top: 0; /* Se mantiene en la parte superior */
+    width: 100%; /* Ocupa todo el ancho */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera para resaltar */
+    z-index: 1000; /* Asegura que esté sobre otros elementos */
+}
+.descripoferta{  
+font-family: 'FHWASeriesC2020', sans-serif;
+text-align: center;     
+background: cadetblue;    
+padding: 10px;                                                                                                                                             
+}
+.oferta{
+background: white;
+}
+header {
+    background:rgb(6, 55, 146);
+}
+
+
+
+
+.slider {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+    background: gray;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    justify-content: center;
+}
+.slide {
+    flex: 0 0 33.33%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding: 0 10px;
+    margin: 0 auto;
+    align-items: center;
+}
+.produc {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.prev {
+    left: 10px;
+}
+.next {
+    right: 10px;
+}
